@@ -18,6 +18,8 @@ import java.time.LocalDateTime;
 @Builder
 @Entity
 public class BancoHoras {
+
+
     @EqualsAndHashCode
     @Embeddable
     @Getter
@@ -32,4 +34,5 @@ public class BancoHoras {
     private LocalDateTime dataTrabalhada;
     private BigDecimal quantidadeHoras;
     private BigDecimal saldoHoras;
+
 }
